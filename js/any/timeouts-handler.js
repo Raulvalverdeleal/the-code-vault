@@ -1,10 +1,12 @@
 /**
- * author: raulvalverdeleal
- */
-
-/**
  * A utility class to manage timeouts more safely, preventing duplicate timeouts using unique tokens.
  * @class
+ * @author Raul Valverde Leal
+ * @example
+ * const timeouts = new TimeoutsHandler();
+ * timeouts.set("animation-01", () => console.log("Timeout finished"), 1000);
+ * timeouts.set("animation-01", () => console.log("Timeout finished"), 1000);
+ * // Only one timeout with "animation-01" will execute.
  */
 class TimeoutsHandler {
 
