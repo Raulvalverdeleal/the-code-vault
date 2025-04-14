@@ -24,10 +24,15 @@ The repository is organized by folders for each programming language, named afte
 We welcome contributions from developers of all levels! Here’s how you can contribute:  
 
 1. **Fork the repository.**  
-2. Create a new branch for your feature: `git checkout -b feature/new-helper`.  
+2. Create a new branch for your feature: `git checkout -b language/new-helper`.  
 3. Add your snippet or helper to the appropriate folder.  
 4. Ensure your code includes comments explaining its purpose and usage.  
 5. Submit a pull request with a brief explanation of your contribution.
+
+> [!NOTE]  
+> Code snippets can use any file extension.
+> They must be self-contained within a single file and should not rely on external dependencies (other than the framework or library they are intended for).  
+
 
 ### Contribution Guidelines  
 
