@@ -1,5 +1,9 @@
 /**
- * A utility class to manage intervals more safely, preventing duplicate intervals using unique tokens.
+ * A versatile HTTP client for managing API requests with features like automatic retries, 
+ * request aborting, timeout management, and customizable headers. It supports methods 
+ * such as GET, POST, PUT, PATCH, and DELETE while enabling global or per-request 
+ * configurations for logging, authorization tokens, and retry strategies.
+ * 
  * @class
  * @author Raul Valverde Leal
  * @example
